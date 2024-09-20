@@ -1,0 +1,23 @@
+dw 2.0
+
+
+/* Define your inputs and output here */
+
+
+input data application/xml      // 'data' here acts as a variable that will hold the incoming data.
+output application/json
+---
+
+
+/* Write your script here */
+
+
+{
+    "Accounts" : (
+        data.Accounts.*Account map {
+            "Name": $.Name,
+            "Industry": $.Industry,
+            "Rating": $.Rating
+        }
+    )
+}

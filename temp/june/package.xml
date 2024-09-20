@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Asset_Case_Closed__e.Key__c</members>
+        <members>Asset_Returned__e.Key__c</members>
+        <members>BEACON_Activation_Message__e.Key__c</members>
+        <members>BEACON_Activation_Message__e.Modem__c</members>
+        <members>BEACON_Activation_Message__e.Signal_Stength__c</members>
+        <members>BEACON_Standard_Message__e.Key__c</members>
+        <members>BEACON_Standard_Message__e.Signal_Stength__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Asset_Case_Closed__e</members>
+        <members>Asset_Returned__e</members>
+        <members>BEACON_Activation_Message__e</members>
+        <members>BEACON_Standard_Message__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>BEACON_Installations</members>
+        <name>Orchestration</name>
+    </types>
+    <types>
+        <members>BEACON_Endpoints</members>
+        <name>OrchestrationContext</name>
+    </types>
+    <version>42.0</version>
+</Package>

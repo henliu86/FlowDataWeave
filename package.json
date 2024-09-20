@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@salesforce/plugin-omnistudio-migration-tool": "^1.1.1"
+  }
+}

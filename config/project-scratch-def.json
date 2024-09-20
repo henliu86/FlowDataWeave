@@ -1,9 +1,31 @@
 {
-    "orgName": "Dreamhouse",
+    "orgName": "Flow Dreamhouse",
     "edition": "Developer",
-    "hasSampleData": "false",
-    "orgPreferences" : {
-        "enabled": ["S1DesktopEnabled"],
-        "disabled": ["S1EncryptedStoragePref2"]
+    "features": [
+      "IOT"
+    ],
+
+    "settings": {
+        "ioTSettings": {
+            "enableIoT": true,
+            "iotInsights": true
+        },
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "mobileSettings": {
+            "enableS1EncryptedStoragePref2": false
+        }
     }
-}
+    /*
+    "settings": {
+      "orgPreferenceSettings": {
+        "s1DesktopEnabled": true,
+        "s1EncryptedStoragePref2": false
+      },
+      "ioTSettings": {
+        "enableIoT": true,
+        "iotInsights": true
+      }
+    }*/
+  }
